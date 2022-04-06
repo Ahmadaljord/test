@@ -10,7 +10,7 @@
   }
   
   html {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
   }
   
   #hideStudents {
@@ -18,7 +18,7 @@
   }
   
   .header {
-    padding: 15px;
+    padding: 10px;
   }
   
   button {
@@ -37,12 +37,11 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
-    object-fit: scale-down;
-    margin-top: 10px;
     background-size: 300px auto;
-    background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto; 
+    margin-top: 15px; 
+
   }
   #size2 {
     width: 450px;
@@ -96,11 +95,15 @@
   li {
     padding: 8px;
     margin-bottom: 7px;
+    text-align: center;
     
   }
   li span{
     color: rgb(22, 85, 141);
     font-size: 30px;
+  }
+  #emaillist {
+    font-size: 14px;
   }
   
   #icons a {
@@ -115,7 +118,21 @@
     .menu {
       justify-content: center;
       align-items: center;
+      padding: 20px;
   
+    }
+    .imglist2 {
+      width: 170px;
+      height: 170px;
+      background-image: url(dimitry.jpg);
+      border-radius: 50%;
+      background-size: 200px auto;
+      margin-left: auto;
+      margin-right: auto; 
+      margin-top: 15px; 
+    }
+    #emaillist {
+      font-size: 14px;
     }
     #size  {
       width: 300px;
@@ -129,7 +146,7 @@
       margin-right: auto;
       margin-left: auto;
       margin-bottom: 20px;
-      width: 19rem;
+      width: 18rem;
     }
     .imglist {
       width: 300px;
