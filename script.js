@@ -11,7 +11,7 @@ function showStudents() {
 					<img class="imglist" src="${student.Photo}" alt="">
 					<li>Student ID: ${student.id}</li>
 					<li>${student.name}</li>
-					<li id="emaillist">Email: ${student.email}</li>
+					<li id="emaillist">${student.email}</li>
 					<li ID="icons"><a href="${student.github}" target="_blank" class="fa fa-github"></a>
 					<a href="${student.linkedIn}" target="_blank" class="fa fa-linkedin"></a>
 					<a href="${student.facebook}" target="_blank" class="fa fa-facebook"></a></li>
