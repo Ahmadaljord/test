@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+  }
+    
+  h1, h2 {
+    color: darkblue;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  html {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #hideStudents {
+    display: none;
+  }
+  
+  .header {
+    padding: 15px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 24px;
+    border: 0 solid transparent;
+    border-radius: 5px;
+  }
+  /* dimitrys img ----*/
+  .menu2  {
+    justify-content: center;
+    align-items: center;
+  }
+  .imglist2 {
+    background-image: url(dimitry.jpg);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+    margin-top: 10px;
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  #size2 {
+    width: 450px;
+    border: 0 solid transparent;
+    border-radius: 10px;
+    color: white;
+  }
+  #icons2 a {
+    margin-right: 20px;
+    margin-left:10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* students img ----*/
+  .menu  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  .imglist {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 250px;
+  }
+  #size  {
+    width: 250px;
+    border: 0 solid transparent;
+    border-radius: 10px;
+    color: white;
+  }
+  #size a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .getlist {
+  text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: #33b5e5;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    margin-bottom: 7px;
+    
+  }
+  li span{
+    color: rgb(22, 85, 141);
+    font-size: 30px;
+  }
+  
+  #icons a {
+    margin-right: 20px;
+    margin-left:10px;
+    font-size: 30px;
+   }
+  
+  
+  @media only screen and (max-width: 399px) {
+      /* For mobiles: */
+    .menu {
+      justify-content: center;
+      align-items: center;
+  
+    }
+    #size  {
+      width: 300px;
+    }
+    #size2 {
+      width: 300px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    button {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 20px;
+      width: 20rem;
+    }
+    .imglist {
+      width: 300px;
+    }
+    li {
+      font-size: 20px;
+    }
+    #icons a {
+      margin-right: auto;
+      margin-left:auto;
+      padding-right: 30px;
+      padding-left: 40px;
+    }
+  }
+  
+    @media only screen and (min-width: 400px) {
+      /*For tablet: */
+      .menu  {
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin: 10px;
+      }
+      
+      .menu2  {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+      }
+      button {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        width: 25rem;
+      }
+      #size  {
+        width: 400px;
+        margin-bottom: 10px;
+      }
+      #size2 {
+        width: 400px;
+        border: 0 solid transparent;
+        border-radius: 10px;
+        color: white;
+      }
+      .imglist {
+        width: 400px;
+      }
+      li {
+        padding: 10px;
+        font-size: 20px;
+      }
+      #icons a {
+        margin-right: auto;
+        margin-left:auto;
+        padding-right: 40px;
+        padding-left: 50px;
+      }
+  
+    }
+  
+  
+    @media only screen and (min-width: 600px) { 
+      /*For desktop*/
+      .menu  {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1%;
+        margin: 10px;
+      }
+    
+      button {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 15px;
+        font-size: 24px;
+        border: 0 solid transparent;
+        border-radius: 5px;
+      }
+      #size  {
+        width: 270px;
+      }
+      .imglist {
+        width: 270px;
+      }
+      #icons a {
+        margin-right: auto;
+        margin-left:auto;
+        padding-right: 20px;
+        padding-left: 30px;
+      }
+  
+    }
+  
+  
