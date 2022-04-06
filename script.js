@@ -10,8 +10,8 @@ function showStudents() {
 					<ul ID="size">
 					<img class="imglist" src="${student.Photo}" alt="">
 					<li>Student ID: ${student.id}</li>
-					<li>Name: ${student.name}</li>
-					<li>Email: ${student.email}</li>
+					<li>${student.name}</li>
+					<li id="emaillist">Email: ${student.email}</li>
 					<li ID="icons"><a href="${student.github}" target="_blank" class="fa fa-github"></a>
 					<a href="${student.linkedIn}" target="_blank" class="fa fa-linkedin"></a>
 					<a href="${student.facebook}" target="_blank" class="fa fa-facebook"></a></li>
@@ -30,4 +30,3 @@ function showStudents() {
 function hideStudents() {
 	window.location.reload();
 }
-
